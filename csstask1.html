@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 1</title>
+    <link rel="stylesheet" href="./csstask1.css">
+</head>
+
+<body>
+    <nav>
+        <h1 id="heading">Naveen Tak</h1>
+        <br>
+        <div>
+            Seeking a challenging role as a front-end developer where I can utilize my programming skills and
+            experience to design, develop, and implement innovative software solutions. I am proficient in coding
+            languages such as html and CSS, and possess a strong understanding of software
+            development methodologies. My goal is to contribute to the success of a dynamic team and to continue to
+            expand my knowledge in the field of software engineering.
+
+        </div>
+    </nav>
+
+    <div>
+        <h2 id="skills">Skills</h2>
+        <br>
+        <!-- <div>
+            <form action="#" class="skillspara">
+                <label for="plang">Programming languages:</label><br>
+                <input type="radio" value="HTML">
+                <label for="html">HTML</label>
+                <input type="radio" value="Java">
+                <label for="java">Java</label>
+                <input type="radio" value="CSS">
+                <label for="css">CSS</label>
+                <input type="radio" value="C++">
+                <label for="c++">C++</label>
+                <input type="radio" value="Python">
+                <label for="python">Python</label>
+                <input type="radio" value="JS">
+                <label for="js">JS</label>
+                <br>
+                <label for="psolve">Problem-solving:</label><br>
+                <input type="radio" value="debug">
+                <label for="debug">Debugging</label>
+                <input type="radio" value="troubleshoot">
+                <label for="troubleshoot">Troubleshooting</label>
+                <input type="radio" value="rcs">
+                <label for="rcs">Root cause analysis</label>
+            </form>
+        </div> -->
+        <div>
+            <form action="#" class="skillspara">
+                <input type="text" list="SkillsOpt" id="addSkills1" placeholder="Add your skills.">
+                <datalist id="SkillsOpt">
+                    <option value="C++">
+                    <option value="Java">
+                    <option value="HTML">
+                    <option value="CSS">
+                </datalist>
+            </form>
+        </div>
+
+        <div>
+            <h2 id="projects">Projects</h2>
+            <br>
+            <div class="projectsdiv">
+                <h3>Spotify clone | Main page</h3>
+                <p>
+                    Revamped user interface of a music streaming app clone, optimizing the main page for enhanced user
+                    engagement; integrated dynamic playlists and personalized music recommendations, resulting in a 40%
+                    increase
+                    in user retention.
+                </p>
+                <h3>Fake News Detection | Jupyter Notebook</h3>
+                <p>
+                    Developed a Fake News Detection project using Python and machine learning algorithms including
+                    logistic
+                    regression, decision tree classification, and gradient boosting classification; sourced dataset from
+                    Kaggle.com
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact_section">
+        <h2 id="contact">Contact</h2>
+        <form action="#">
+            <input type="text" id="name" placeholder="Your Name"><br>
+            <input type="email" id="email" placeholder="Your email"><br>
+            <textarea name="yourMssg" id="yourMssg" cols="30" rows="5">
+            </textarea><br>
+            <input type="submit" id="sendMssg" placeholder="Send Message">
+        </form>
+    </div>
+</body>
+
+</html>
